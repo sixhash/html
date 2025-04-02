@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.relogio {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #61dafb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20232a;
+}
+
+.hora, .minuto, .segundo {
+    position: absolute;
+    text-align: center;
+    font-size: 2em;
+}
+
+.hora {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.minuto {
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.segundo {
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.relogio {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #61dafb;
+    border-radius: 50%;
+    background-color: #20232a;
+}
+
+.ponteiro {
+    position: absolute;
+    background-color: #61dafb;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ponteiro.hora {
+    width: 6px;
+    height: 50px;
+    border-radius: 3px;
+    z-index: 3;
+}
+
+.ponteiro.minuto {
+    width: 4px;
+    height: 70px;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.ponteiro.segundo {
+    width: 2px;
+    height: 90px;
+    border-radius: 1px;
+    background-color: red;
+    z-index: 1;
+}
