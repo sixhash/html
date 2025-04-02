@@ -25,6 +25,21 @@ main{
     gap: 20px;
     width: 100%;
 }
+.ct{
+    display: flex;
+    width: 480px;
+    height: 105px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(15, 80, 219);
+    border: 2px solid;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 40%;
+}
 .C{
     position: absolute;
     top: 25%;
@@ -43,6 +58,18 @@ main{
   
    
 }
+button{
+    position: absolute;
+    transform: translateX(100%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 100;
+    border-radius: 15px;
+    width: 150px;
+    height: 29px;
+    color: #fffbfb;
+    background-color: rgb(47, 161, 238);
+
+}
 
 .item{
     width: 100px;
@@ -55,8 +82,8 @@ main{
 }
 
 .item img{
-    width: 100px;  
-    height: 230px; 
+    width: 139px;  
+    height: 250px; 
     background-color: rgb(15, 80, 219);
     border: 2px solid #ffffff;
     border-radius: 12px;
