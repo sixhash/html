@@ -1,0 +1,162 @@
+@import url('https://fonts.cdnfonts.com/css/itc-benguiat-std');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'ITC Benguiat Std';
+}
+body{
+    background-color: #6694c4;
+}
+.inicio{  
+background-color: #bddbb1;
+height: 430px;
+width: 100%;
+}
+#img1{
+height: 120px;
+width: 260px;
+position: fixed;
+top: 10px;
+left: 3px;
+}
+#img2{
+    display:flex;
+    height: 118px;
+    width: 118px;
+    position: fixed;
+    top: 120px;
+    left: 90px;
+}
+#img3{
+    display:flex;
+    height: 430px;
+    width: 920px;
+    position: fixed;
+    top:0px;
+   right: 0px;
+}
+h1{
+    font-size: 80px;
+    position: fixed;
+    top: 140px;
+    left: 200px;
+    color: #7d5d02;
+}
+p{
+    color: #7d5d02;
+    font-size: 35px;
+    position: fixed;
+    top: 28%;
+    left: 8%;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    position: fixed;
+    top: 47%;
+    left: 49%;
+
+}
+.n1{
+    margin-right: 9px;
+    background-color: black; 
+    height: 30px;
+    width: 40px;
+    border-radius: 43%;
+}
+.n2{
+    margin-right: 9px;
+    background-color: black; 
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.n3{ 
+    margin-right: 9px;
+    background-color: black; 
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.n4{ 
+    margin-right: 9px;
+    background-color: black; 
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.planos{
+    display: flex;
+    position: fixed;
+    top: 55%;
+    margin-left: 200px;
+
+}
+.cx1{
+    margin-left: 110px;
+    background-color: #cfb670; 
+    height: 120px;
+    width: 189px; 
+}
+.cx2{
+    margin-left: 110px;
+    background-color: #cfb670; 
+    height: 120px;
+    width: 189px;  
+}
+.cx3{
+    margin-left: 110px;
+    background-color: #cfb670; 
+    height: 120px;
+    width: 189px;  
+}
+.cx4{
+    margin-left: 110px;
+    background-color: #cfb670; 
+    height: 120px;
+    width: 189px; 
+}
+.cx5{
+    margin-left: 110px;
+    background-color: #cfb670; 
+    height: 120px;
+    width: 189px;   
+}
+.planos p{
+ color: black;
+ font-size: 50PX;
+ font-weight: normal;
+ position: fixed;
+ top: 75%;
+ left: 16%;
+}
+button{
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    position: fixed;
+    top: 89%;
+    right: 10px;
+}
+button:hover{
+    background-color: rgb(102, 4, 4);
+}
+button h4{
+    position: relative;
+    top: 40%;
+    right: 10px;
+}
+#img4{
+   height: 40px;
+    width: 40px;
+    position: relative;
+    left: 35%;
+    margin-top: -7px;
+}
+
+
